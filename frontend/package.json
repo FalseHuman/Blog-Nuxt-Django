@@ -1,0 +1,22 @@
+{
+  "name": "nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@blowstack/ckeditor-nuxt": "^0.5.1",
+    "@nuxtjs/axios": "^5.12.5",
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.21.2",
+    "ckeditor4-vue": "^1.2.0",
+    "core-js": "^3.8.2",
+    "nuxt": "^2.14.12",
+    "vue-page-title": "^1.2.3"
+  },
+  "devDependencies": {}
+}

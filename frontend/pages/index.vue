@@ -1,0 +1,59 @@
+<template>
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <h3 class="pb-4 mb-4 font-italic border-bottom">
+        Немного инфы об авторе:)
+      </h3>
+
+      <div class="blog-post">
+        <h2 class="blog-post-title">Кто такой автор Блога?</h2>
+        <p class="blog-post-meta">1 августа, 2020</p>
+
+        <p>Меня зовут Эмиль.Я родился в Салавате, мне 19 лет отроду. На этом можно бы и закончить впринципе:)</p>
+        <hr>
+        <p>Что такое<a href="#"> Блог</a>? Блог - это прежде всего, моя "цитадель" свободы, где мой мысли принимают материальный характер.</p>
+        <blockquote>
+          <p>Ты можешь спросить, если тут какие-то правила?<strong>Неа, их нет ибо я ленивая ж*па</strong>, это свободная платформа как Телега(ну почти).</p>
+        </blockquote>
+        <p>Если тебе тут <em>комофортно</em> выражаться матом то пожалуйста, ибо это и есть свобода.</p>
+        <p>Это ни соцсеть,ни мессенджер.Здесь будет много интересных статей обо всем,что я вижу, слышу, чувствую...</p>
+   
+      <!-- /.blog-post -->
+      </div><!-- /.blog-post -->
+
+
+    </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+      <div class="p-3 mb-3 bg-light rounded">
+        <h4 class="font-italic">Приветики-пистолетики, Странник Всемирной паутины</h4>
+        <p class="mb-0">Добро пожаловать в Блог.<em></em> </p>
+      </div>
+
+
+      <div class="p-4">
+        <h4 class="font-italic">Ccылки на аффтора:</h4>
+        <ol class="list-unstyled">
+          <li><a href="https://github.com/FalseHuman" target="blank">GitHub</a></li>
+          <li><a href="https://twitter.com/False__Human" target="blank">Twitter</a></li>
+          <li><a href="https://www.facebook.com/FalseHuman1" target="blank">Facebook</a></li>
+          <li><a href="https://stepik.org/users/154391668" target="blank">Stepik</a></li>
+          <li><a href="https://vk.com/false__human" target="blank">Вконтакте</a></li>
+        </ol>
+      </div>
+    </aside><!-- /.blog-sidebar -->
+
+  </div><!-- /.row -->
+
+</main>
+</template>
+<script>
+export default {
+  head() {
+    return {
+      title: "Главная страница"
+    };
+  },
+};
+</script>

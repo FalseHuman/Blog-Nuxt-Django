@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  nuxt:
+    container_name: nuxt_blog
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/nuxt-app'
+      - '/nuxt-app/node_modules'
+    ports:
+      - '5000:5000'
